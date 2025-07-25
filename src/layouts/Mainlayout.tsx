@@ -13,7 +13,7 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen font-sans antialiased text-gray-800 bg-dark-background">
+    <div className="flex flex-col min-h-screen font-fira-code antialiased text-gray-800 bg-dark-background">
       {/* Header will go here */}
       <header className="bg-transparent shadow-md p-4 sticky top-0 z-50 backdrop-blur-lg">
         <nav className="container mx-auto flex justify-between items-center">
@@ -25,20 +25,20 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
             Praveen
           </a>
           <div className="space-x-20 px-40 text-white font-fira-code">
-            <a href="#about" className=" hover:text-purple-500 transition-colors">
-              <span className="text-purple-600">#</span>About
+            <a href="#about" className=" hover:text-word-background transition-colors">
+              <span className="text-word-background">#</span>About
             </a>
             <a  
               href="#projects"
-              className="hover:text-purple-500 transition-colors"
+              className="hover:text-word-background transition-colors"
             >
-              <span className="text-purple-600">#</span>Projects
+              <span className="text-word-background">#</span>Projects
             </a>
             <a
               href="#contact"
-              className="hover:text-purple-500 transition-colors"
+              className="hover:text-word-background transition-colors"
             >
-              <span className="text-purple-600">#</span>Contact
+              <span className="text-word-background">#</span>Contact
             </a>
           </div>
         </nav>

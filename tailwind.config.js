@@ -16,7 +16,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'dark-background': '#282C33', // Add your custom color here
+        'dark-background': '#282C33', 
+        'word-background': '#C778DD'
         // You can also add shades if needed, e.g.,
         // 'my-custom-blue': {
         //   100: '#E0F2F7',
