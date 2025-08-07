@@ -50,7 +50,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
               space-x-10 text-white font-fira-code mr-48
             `}
           >
-            <a href="#home" className="hover:text-word-background transition-colors" onClick={toggleMenu}>
+            <a href="/" className="hover:text-word-background transition-colors" onClick={toggleMenu}>
               <span className="text-word-background">#</span>home
             </a>
             <a  

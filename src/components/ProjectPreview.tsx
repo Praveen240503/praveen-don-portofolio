@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
 import { projects } from '../Data/ProjectsData';
 
@@ -20,12 +20,18 @@ const ProjectPreview: React.FC = () => {
           {/* View All button */}
 
           <div className="">
-            <Link
+            {/* <Link
               to="/projects"
               className="hover:text-word-background text-white font-semibold"
             >
               View All -{'>'}
-            </Link>
+            </Link> */}
+            <a
+              href="/projects"
+              className="hover:text-word-background text-white font-semibold"
+            >
+              View All -{'>'}
+            </a>
           </div>
         </div>
         {/* Responsive grid for the project cards */}
