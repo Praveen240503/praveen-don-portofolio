@@ -50,8 +50,8 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
               space-x-10 text-white font-fira-code mr-48
             `}
           >
-            <a href="#about" className="hover:text-word-background transition-colors" onClick={toggleMenu}>
-              <span className="text-word-background">#</span>about
+            <a href="#home" className="hover:text-word-background transition-colors" onClick={toggleMenu}>
+              <span className="text-word-background">#</span>home
             </a>
             <a  
               href="#project-preview"
@@ -59,6 +59,13 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
               onClick={toggleMenu}
             >
               <span className="text-word-background">#</span>projects
+            </a>
+            <a
+              href="#skills"
+              className="hover:text-word-background transition-colors"
+              onClick={toggleMenu}
+            >
+              <span className="text-word-background">#</span>skills
             </a>
             <a
               href="#contact"
@@ -103,7 +110,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       </main>
 
       {/* Footer will go here */}
-      <footer className="bg-dark-background text-white p-6 text-center mt-auto">
+      <footer className="bg-dark-background text-white h-30 p-6 border-t-2 border-word-background text-center mt-auto">
         <p>
           &copy; {new Date().getFullYear()} Praveen Don. All rights reserved.
         </p>
