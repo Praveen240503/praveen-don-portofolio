@@ -45,27 +45,27 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           {/* Navigation Links (hidden on small, flex on medium+) */}
           <div
             className={`
-              ${isMenuOpen? 'flex flex-col absolute top-full left-0 w-full bg-[#303338] p-4 shadow-lg items-center space-y-4' : 'hidden'}
+              ${isMenuOpen? 'flex flex-col absolute top-full left-0 w-full bg-inner-background p-4 shadow-lg items-center space-y-4' : 'hidden'}
               md:flex md:flex-row md:static md:w-auto md:bg-transparent md:p-0 md:shadow-none md:items-center md:space-y-0
               space-x-10 text-white font-fira-code mr-48
             `}
           >
             <a href="#about" className="hover:text-word-background transition-colors" onClick={toggleMenu}>
-              <span className="text-word-background">#</span>About
+              <span className="text-word-background">#</span>about
             </a>
             <a  
-              href="#projects"
+              href="#project-preview"
               className="hover:text-word-background transition-colors"
               onClick={toggleMenu}
             >
-              <span className="text-word-background">#</span>Projects
+              <span className="text-word-background">#</span>projects
             </a>
             <a
               href="#contact"
               className="hover:text-word-background transition-colors"
               onClick={toggleMenu}
             >
-              <span className="text-word-background">#</span>Contact
+              <span className="text-word-background">#</span>contact
             </a>
           </div>
         </nav>

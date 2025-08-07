@@ -17,7 +17,8 @@ export default {
     extend: {
       colors: {
         'dark-background': '#282C33', 
-        'word-background': '#C778DD'
+        'word-background': '#C778DD',
+        'inner-background': '#303338',
         // You can also add shades if needed, e.g.,
         // 'my-custom-blue': {
         //   100: '#E0F2F7',

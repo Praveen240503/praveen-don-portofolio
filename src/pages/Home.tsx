@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   return (
     <section
       id="home"
-      className="flex flex-row justify-center  min-h-[calc(100vh-80px)] mx-40 bg-[#303338]"
+      className="flex flex-col justify-center  min-h-[calc(100vh-80px)] mx-40 bg-inner-background"
     >
       <div className="flex flex-row ml-10 mt-40 justify-between">
         {/* Hero Text */}
@@ -39,6 +39,15 @@ const Home: React.FC = () => {
             className="-mt-24 ml-96 w-32 h-32"
           />
         </div>
+      </div>
+      {/* QuoteSection */}
+      <div className="container relative mt-20 mx-auto max-w-3xl">
+        <blockquote className="text-3xl sm:text-4xl font-semibold italic leading-tight text-white font-fira-code">
+          &ldquo;With great power comes great electricity bill.&rdquo;
+          <footer className="absolute bottom-0 right-0 text-xl text-gray-400 not-italic">
+            — Dr. Who
+          </footer>
+        </blockquote>
       </div>
     </section>
   );
