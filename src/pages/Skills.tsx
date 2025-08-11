@@ -1,5 +1,5 @@
 import React from 'react';
-import { SkillsData } from '../Data/skillsData'
+import { SkillsData } from '../Data/SkillsData'
 
 const Skills: React.FC = () => {
     return (

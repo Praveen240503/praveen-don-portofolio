@@ -13,17 +13,24 @@ const Home: React.FC = () => {
         {/* Hero Text */}
         <div className="mt-20">
           <h1 className="text-4xl font-extrabold text-white font-fira-code">
-            Hi, I'm <span className="text-word-background">Praveen Don</span>
+            Hi, I'm <span className="text-word-background">Praveen</span>
           </h1>
           <p className="text-lg text-gray-400 mt-12 max-w-2xl font-fira-code">
             A passionate{" "}
             <span className="text-word-background">Software Developer</span>,
-            transforming ideas into robust and engaging web applications. I
-            specialize in Front-end Development and Machine Learning.
+            transforming ideas into robust and engaging applications. I
+            specialize in Front-end Development and Machine Learning. Capable of 
+            solving real-world problems with AI-driven solutions. Let's connect and create something amazing together!
           </p>
           <button className="text-gray-300 font-fira-code mt-6 w-48 h-8 border-word-background border-2">
+            <a
+              href="#contact"
+              // className="text-gray-300 font-fira-code mt-6 w-48 h-8 border-word-background border-2"
+            >
               Contact me!
+            </a>
           </button>
+          
         </div>
         {/* Profile Image */}
         <div className="-mt-20">
@@ -43,9 +50,9 @@ const Home: React.FC = () => {
       {/* QuoteSection */}
       <div className="container relative mt-20 mx-auto max-w-3xl">
         <blockquote className="text-3xl sm:text-4xl font-semibold italic leading-tight text-white font-fira-code">
-          &ldquo;With great power comes great electricity bill.&rdquo;
+          &ldquo;The best way to predict the future is to create it.&rdquo;
           <footer className="absolute bottom-0 right-0 text-xl text-gray-400 not-italic">
-            — Dr. Who
+            — Abraham Lincoln
           </footer>
         </blockquote>
       </div>

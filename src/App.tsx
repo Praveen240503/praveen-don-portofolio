@@ -4,7 +4,7 @@ import MainLayout from './layouts/Mainlayout';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import ProjectPreview from './components/ProjectPreview';
-import Skills from './pages/skills';
+import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 // import AnimateOnScroll from './components/AnimateOnScroll';
 function App() {

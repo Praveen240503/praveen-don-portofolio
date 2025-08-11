@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDiscord, FaEnvelope } from 'react-icons/fa'; // Icons for Discord and Email
+import { FaDiscord, FaEnvelope, FaInstagram } from 'react-icons/fa'; // Icons for Discord and Email
 
 const Contact: React.FC = () => {
     return (
@@ -28,15 +28,26 @@ const Contact: React.FC = () => {
                             <div className="bg-inner-background border border-word-background cursor-pointer p-4 rounded-lg flex items-center gap-4 hover:bg-gray-700 transition-colors duration-300">
                                 <FaDiscord size={24} className="text-word-background" />
                                 <a
-                                    href="https://discordapp.com/users/yourusername" // Replace with your Discord username
+                                    href="https://discordapp.com/users/praveen_don"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-lg text-white font-fira-code"
                                 >
-                                    !Elias#3519
+                                    praveen_don
                                 </a>
                             </div>
-
+                            {/* Instagram Profile */}
+                            <div className="bg-inner-background border border-word-background cursor-pointer p-4 rounded-lg flex items-center gap-4 hover:bg-gray-700 transition-colors duration-300">
+                                <FaInstagram size={24} className="text-word-background" />
+                                <a
+                                    href="https://www.instagram.com/praveen._.006?igsh=cjUwOHVyZmg5cXNh"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-lg text-white font-fira-code"
+                                >
+                                    praveen._.006
+                                </a>
+                            </div>
                             {/* Email Card */}
                             <div className="bg-inner-background border border-word-background cursor-pointer p-4 rounded-lg flex items-center gap-4 hover:bg-gray-700 transition-colors duration-300">
                                 <FaEnvelope size={24} className="text-word-background" />
