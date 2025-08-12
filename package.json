@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Praveen240503.github.io/praveen-don-portofolio",
+
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
